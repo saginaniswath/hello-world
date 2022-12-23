@@ -57,14 +57,15 @@ exports.config = {
         browserName: 'chrome',
         acceptInsecureCerts: true
         
-    },
-    {
+    }
+    // {
     
-        maxInstances: 1,
-        browserName: 'MicrosoftEdge',
-        acceptInsecureCerts: true
+    //     maxInstances: 1,
+    //     browserName: 'MicrosoftEdge',
+    //     acceptInsecureCerts: true
         
-    }],
+    // }
+],
     
     //
     // ===================
@@ -294,3 +295,5 @@ exports.config = {
     // onReload: function(oldSessionId, newSessionId) {
     // }
 }
+
+
